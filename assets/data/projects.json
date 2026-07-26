@@ -1,0 +1,820 @@
+[
+  {
+    "slug": "campus-exchange",
+    "title": "Campus Exchange",
+    "subtitle": "AI-Powered Campus Marketplace",
+    "category": "Full-Stack AI",
+    "status": "Production system",
+    "year": "2026",
+    "featured": true,
+    "accent": "#20f6d2",
+    "symbol": "CX",
+    "summary": "A verified campus marketplace combining recommendation search, pricing intelligence, expense sharing, and production-ready APIs for safer student transactions.",
+    "problem": "Students need a trusted place to buy and sell items, split expenses, and avoid scams without depending on fragmented social-media groups.",
+    "approach": [
+      "Designed a Next.js frontend backed by FastAPI services.",
+      "Used PostgreSQL with pgvector for semantic and personalized recommendations.",
+      "Added Redis for fast access patterns and production-oriented caching.",
+      "Structured the product around verified users, price guidance, and practical campus workflows."
+    ],
+    "role": "Founder and lead developer - product architecture, AI features, backend services, data layer, and deployment decisions.",
+    "tools": [
+      "Next.js",
+      "FastAPI",
+      "PostgreSQL",
+      "pgvector",
+      "Redis",
+      "Python",
+      "JavaScript"
+    ],
+    "results": [
+      "Reported a 15% gain in pricing accuracy.",
+      "Delivered a full-stack production system focused on verified campus users.",
+      "Turned recommendation and pricing models into user-facing marketplace features."
+    ],
+    "metrics": [
+      {
+        "value": "15%",
+        "label": "pricing accuracy gain"
+      },
+      {
+        "value": "Full-stack",
+        "label": "AI marketplace"
+      },
+      {
+        "value": "Verified",
+        "label": "user workflow"
+      }
+    ],
+    "takeaways": [
+      "AI features matter most when they reduce a real user risk.",
+      "Vector search becomes valuable when it is integrated into a complete product journey."
+    ],
+    "gallery": [],
+    "cover": "assets/images/projects/campus-exchange-cover.svg",
+    "report": "public/reports/campus-exchange.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/campus-exchange.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ]
+  },
+  {
+    "slug": "voice-id-clone",
+    "title": "Voice-ID & Neural Voice Cloning",
+    "subtitle": "Speaker Authentication + Voice Synthesis",
+    "category": "Speech AI",
+    "status": "Completed prototype",
+    "year": "2026",
+    "featured": false,
+    "accent": "#7c6cff",
+    "symbol": "VC",
+    "summary": "An integrated audio system that authenticates enrolled speakers with ECAPA embeddings and generates cloned speech through a standardized multi-format pipeline.",
+    "problem": "Voice applications need to distinguish enrolled users from unknown speakers while accepting inconsistent real-world audio formats.",
+    "approach": [
+      "Generated SpeechBrain ECAPA speaker embeddings.",
+      "Calibrated cosine-similarity decisions rather than using an arbitrary threshold.",
+      "Standardized OGG, MP3, and WAV audio to 16 kHz.",
+      "Connected the identification stage with Coqui TTS voice cloning."
+    ],
+    "role": "Designed the end-to-end audio preprocessing, speaker matching, threshold calibration, and synthesis workflow.",
+    "tools": [
+      "Python",
+      "SpeechBrain",
+      "ECAPA-TDNN",
+      "Coqui TTS",
+      "FFmpeg",
+      "NumPy"
+    ],
+    "results": [
+      "Established a custom decision threshold of 0.4814 for enrolled-vs-unknown queries.",
+      "Built a reusable multi-stage audio pipeline.",
+      "Combined authentication and generation in one coherent system."
+    ],
+    "metrics": [
+      {
+        "value": "0.4814",
+        "label": "calibrated threshold"
+      },
+      {
+        "value": "16 kHz",
+        "label": "audio standard"
+      },
+      {
+        "value": "3+",
+        "label": "input formats"
+      }
+    ],
+    "takeaways": [
+      "Calibration is as important as the embedding model.",
+      "Audio normalization prevents many failures before inference begins."
+    ],
+    "gallery": [],
+    "cover": "assets/images/projects/voice-id-clone-cover.svg",
+    "report": "public/reports/voice-id-clone.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/voice-id-clone.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ]
+  },
+  {
+    "slug": "cricket-tracking",
+    "title": "Cricket Ball & Bat Tracking",
+    "subtitle": "Detection, Hit Events, Trajectory & Speed",
+    "category": "Computer Vision",
+    "status": "Completed prototype",
+    "year": "2025",
+    "featured": true,
+    "accent": "#39ff88",
+    "symbol": "CV",
+    "summary": "A YOLOv8-based vision pipeline for ball and bat detection, motion tracking, hit-event reasoning, trajectory reconstruction, and real-time speed estimation.",
+    "problem": "A cricket ball is small, fast, frequently blurred, and often occluded, making reliable tracking and speed estimation difficult from ordinary video.",
+    "approach": [
+      "Fine-tuned YOLOv8n for ball and bat bounding boxes.",
+      "Used tracking plus bounding-box interaction to identify hit events.",
+      "Applied optical-flow fallback for difficult frames.",
+      "Implemented Tomasi-Kanade-based 3D trajectory reconstruction for speed estimation."
+    ],
+    "role": "Dataset preparation, YOLO training, event logic, tracking integration, trajectory work, and application-level visualization.",
+    "tools": [
+      "YOLOv8",
+      "Ultralytics",
+      "OpenCV",
+      "Python",
+      "Optical Flow",
+      "Tomasi-Kanade"
+    ],
+    "results": [
+      "Produced ball-bat detections and tracked motion through video.",
+      "Connected detection output to hit-event and speed logic.",
+      "Built a practical computer-vision system rather than a standalone model notebook."
+    ],
+    "metrics": [
+      {
+        "value": "YOLOv8n",
+        "label": "detector"
+      },
+      {
+        "value": "3D",
+        "label": "trajectory model"
+      },
+      {
+        "value": "Real-time",
+        "label": "tracking goal"
+      }
+    ],
+    "takeaways": [
+      "Small-object detection needs temporal reasoning after the detector.",
+      "A useful sports system combines detection, tracking, geometry, and UI feedback."
+    ],
+    "gallery": [],
+    "cover": "assets/images/projects/cricket-tracking-cover.svg",
+    "report": "public/reports/cricket-tracking.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/cricket-tracking.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ]
+  },
+  {
+    "slug": "bank-churn",
+    "title": "Bank Customer Churn Prediction",
+    "subtitle": "Classical ML + Neural Network Comparison",
+    "category": "Applied ML",
+    "status": "Completed",
+    "year": "2025",
+    "featured": false,
+    "accent": "#ffd84a",
+    "symbol": "ML",
+    "summary": "A structured customer-risk modeling project comparing boosting pipelines with MLP and feed-forward neural-network approaches.",
+    "problem": "Banks need interpretable and reproducible ways to identify customers who are likely to leave, so retention work can be targeted earlier.",
+    "approach": [
+      "Cleaned and encoded customer attributes through reusable preprocessing pipelines.",
+      "Compared boosting algorithms with MLP and FNN models.",
+      "Evaluated models using classification metrics rather than accuracy alone.",
+      "Framed predictions in terms of retention decisions and customer-risk patterns."
+    ],
+    "role": "End-to-end data preparation, model development, comparison, evaluation, and interpretation.",
+    "tools": [
+      "Python",
+      "Pandas",
+      "scikit-learn",
+      "Boosting",
+      "MLP",
+      "FNN",
+      "Matplotlib"
+    ],
+    "results": [
+      "Built a repeatable model-comparison workflow.",
+      "Demonstrated both classical and neural approaches on the same business problem.",
+      "Created a portfolio-ready example of structured tabular ML."
+    ],
+    "metrics": [
+      {
+        "value": "2",
+        "label": "model families"
+      },
+      {
+        "value": "Pipeline",
+        "label": "reproducible prep"
+      },
+      {
+        "value": "Business",
+        "label": "retention framing"
+      }
+    ],
+    "takeaways": [
+      "The best churn model must be judged with business-relevant errors.",
+      "Strong preprocessing often matters more than increasing neural-network depth."
+    ],
+    "gallery": [],
+    "cover": "assets/images/projects/bank-churn-cover.svg",
+    "report": "public/reports/bank-churn.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/bank-churn.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ]
+  },
+  {
+    "slug": "cobot-dataset-pipeline",
+    "title": "Cobot Visuomotor Dataset Pipeline",
+    "subtitle": "Video-Sensor Synchronization for Imitation Learning",
+    "category": "Data Engineering",
+    "status": "Completed pipeline",
+    "year": "2026",
+    "featured": true,
+    "accent": "#ff6bd6",
+    "symbol": "RB",
+    "summary": "An automated pipeline that trims inactive robot data, synchronizes video frames with timestamps, and produces image-to-joint targets for cobot imitation learning.",
+    "problem": "Raw cobot logs and video are not immediately trainable: movement must be isolated, frames must align with sensor time, and every image needs a consistent joint-angle target.",
+    "approach": [
+      "Detected the last meaningful six-joint movement and trimmed inactive data.",
+      "Mapped every retained timestamp to its exact video frame.",
+      "Extracted synchronized images at 10 FPS.",
+      "Compiled a JSON dataset containing image path, timestamp, and six target joint angles."
+    ],
+    "role": "Designed and implemented the complete data-cleaning, synchronization, extraction, and dataset-building workflow.",
+    "tools": [
+      "Python",
+      "OpenCV",
+      "Pandas",
+      "JSON",
+      "Robot Joint Logs",
+      "Video Processing"
+    ],
+    "results": [
+      "Generated 76 synchronized image-joint samples.",
+      "Covered timestamps from 0.0 to 7.5 seconds.",
+      "Produced a cross-platform JSON manifest ready for visuomotor learning experiments."
+    ],
+    "metrics": [
+      {
+        "value": "76",
+        "label": "aligned samples"
+      },
+      {
+        "value": "10 FPS",
+        "label": "extraction rate"
+      },
+      {
+        "value": "6",
+        "label": "joint targets"
+      }
+    ],
+    "takeaways": [
+      "Reliable synchronization is the core of multimodal robotics data.",
+      "A dataset pipeline should validate one-to-one correspondence before model training."
+    ],
+    "gallery": [
+      "../../assets/images/projects/cobot-frame.jpg"
+    ],
+    "cover": "assets/images/projects/cobot-dataset-pipeline-cover.svg",
+    "report": "public/reports/cobot-dataset-pipeline.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/cobot-dataset-pipeline.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ]
+  },
+  {
+    "slug": "texture-diffusion-analysis",
+    "title": "Texture Statistics vs Diffusion Features",
+    "subtitle": "Heeger-Bergen, Wavelets & U-Net Analysis",
+    "category": "AI Research",
+    "status": "Research implementation",
+    "year": "2026",
+    "featured": true,
+    "accent": "#a88cff",
+    "symbol": "TX",
+    "summary": "A research implementation comparing fixed multiscale texture statistics with learned diffusion U-Net representations and tracking statistical convergence during denoising.",
+    "problem": "Diffusion models generate convincing textures, but it is unclear how their learned features relate to classical multiscale filter banks and when generated images recover the statistics of the original texture.",
+    "approach": [
+      "Implemented steerable-pyramid decomposition and subband statistics.",
+      "Compared learned U-Net filters with classical multiscale filters in the frequency domain.",
+      "Tracked Wasserstein distances across denoising stages.",
+      "Tested a hybrid workflow where a classical statistical draft is refined by diffusion."
+    ],
+    "role": "Research design, Python implementation, statistical analysis, visualization, tests, and interpretation of expected-vs-observed behavior.",
+    "tools": [
+      "Python",
+      "PyTorch",
+      "Diffusion U-Net",
+      "Steerable Pyramid",
+      "Wavelets",
+      "Wasserstein Distance"
+    ],
+    "results": [
+      "Produced filter-comparison, statistical-evolution, and hybrid-synthesis outputs.",
+      "Built a reproducible multi-phase codebase with tests.",
+      "Connected classical texture theory to modern generative-model representations."
+    ],
+    "metrics": [
+      {
+        "value": "Multi-scale",
+        "label": "filter analysis"
+      },
+      {
+        "value": "Wasserstein",
+        "label": "distance metric"
+      },
+      {
+        "value": "Hybrid",
+        "label": "synthesis study"
+      }
+    ],
+    "takeaways": [
+      "Classical statistics and learned representations answer different questions.",
+      "A strong research result reports where the expected coarse-to-fine pattern holds and where it does not."
+    ],
+    "gallery": [
+      "../../assets/images/projects/texture-filter-comparison.png",
+      "../../assets/images/projects/texture-evolution.png",
+      "../../assets/images/projects/texture-hybrid.png"
+    ],
+    "cover": "assets/images/projects/texture-diffusion-analysis-cover.svg",
+    "report": "public/reports/texture-diffusion-analysis.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/texture-diffusion-analysis.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ]
+  },
+  {
+    "slug": "air-pollution",
+    "title": "Air Pollution Prediction & Anomaly Detection",
+    "subtitle": "Regression Benchmark + Isolation Forest",
+    "category": "Applied ML",
+    "status": "Completed",
+    "year": "2025",
+    "featured": false,
+    "accent": "#5ad7ff",
+    "symbol": "AQ",
+    "summary": "An end-to-end notebook comparing six regression models for AQI prediction and adding unsupervised anomaly detection for unusual pollutant combinations.",
+    "problem": "Global air-quality records require cleaning, comparison across multiple regressors, and a way to surface unusual observations beyond standard prediction metrics.",
+    "approach": [
+      "Performed EDA, missing-value handling, outlier inspection, and feature preparation.",
+      "Benchmarked Linear Regression, Decision Tree, Random Forest, Gradient Boosting, XGBoost, and SVR.",
+      "Used cross-validation alongside hold-out metrics.",
+      "Applied Isolation Forest to detect anomalous pollutant profiles."
+    ],
+    "role": "Complete notebook implementation, model benchmarking, anomaly analysis, output export, and result interpretation.",
+    "tools": [
+      "Python",
+      "Pandas",
+      "scikit-learn",
+      "XGBoost",
+      "Isolation Forest",
+      "Matplotlib"
+    ],
+    "results": [
+      "Processed 23,463 source records.",
+      "Best recorded Gradient Boosting result: R2 0.9989 and RMSE 1.8947.",
+      "Flagged 1,174 rows as anomalies, approximately 5% of evaluated records."
+    ],
+    "metrics": [
+      {
+        "value": "23,463",
+        "label": "source rows"
+      },
+      {
+        "value": "0.9989",
+        "label": "best recorded R2"
+      },
+      {
+        "value": "1,174",
+        "label": "anomalies"
+      }
+    ],
+    "takeaways": [
+      "Very high AQI scores require leakage-aware interpretation because pollutant AQI components are closely related to the target.",
+      "Benchmark tables should include speed and cross-validation, not only the best hold-out score."
+    ],
+    "gallery": [
+      "../../assets/images/projects/air-pollution-models.png"
+    ],
+    "cover": "assets/images/projects/air-pollution-cover.svg",
+    "report": "public/reports/air-pollution.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/air-pollution.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ]
+  },
+  {
+    "slug": "python-pos",
+    "title": "Python Point-of-Sale Desktop App",
+    "subtitle": "Inventory, Receipts, Sales Logs & Windows Packaging",
+    "category": "Software Engineering",
+    "status": "Packaged application",
+    "year": "2026",
+    "featured": false,
+    "accent": "#ff9c5a",
+    "symbol": "POS",
+    "summary": "A complete desktop POS workflow using an Excel product database, barcode lookup, stock updates, PDF receipts, daily sales logs, and a PyInstaller Windows executable.",
+    "problem": "A small retail shop needs a simple offline system for products, billing, stock control, customer change, receipts, and daily records without operating a complex server.",
+    "approach": [
+      "Created a barcode-based shopping cart and quantity workflow.",
+      "Loaded and updated inventory through Excel.",
+      "Generated formatted PDF receipts with ReportLab.",
+      "Logged daily sales to Excel and packaged the full app with PyInstaller."
+    ],
+    "role": "Application logic, data access, cart behavior, stock validation, receipt design, logging, and Windows packaging.",
+    "tools": [
+      "Python",
+      "Tkinter",
+      "Pandas",
+      "Excel",
+      "ReportLab",
+      "PyInstaller"
+    ],
+    "results": [
+      "Produced a directly runnable Windows executable.",
+      "Implemented stock-safe checkout, discounts, cash received, and change.",
+      "Generated persistent PDF receipts and daily Excel sales records."
+    ],
+    "metrics": [
+      {
+        "value": "EXE",
+        "label": "Windows package"
+      },
+      {
+        "value": "PDF",
+        "label": "receipt output"
+      },
+      {
+        "value": "Excel",
+        "label": "inventory + logs"
+      }
+    ],
+    "takeaways": [
+      "Deployment includes packaging, paths, and file permissions - not only application code.",
+      "Offline-first software can be the right architecture for a small business."
+    ],
+    "gallery": [
+      "../../assets/images/projects/pos-logo.jpg"
+    ],
+    "cover": "assets/images/projects/python-pos-cover.svg",
+    "report": "public/reports/python-pos.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/python-pos.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ]
+  },
+  {
+    "slug": "hexaquote",
+    "title": "HexaQuote",
+    "subtitle": "AI Voice-to-Quote React Native Platform",
+    "category": "Full-Stack AI",
+    "status": "Full-stack prototype",
+    "year": "2026",
+    "featured": true,
+    "accent": "#00e8ff",
+    "symbol": "HQ",
+    "summary": "A tradesperson records a job description; Whisper transcribes it, Llama structures the costs, Supabase stores the quote, and FastAPI returns a professional PDF for sharing.",
+    "problem": "Tradespeople often create estimates manually after a site visit, losing time converting spoken notes into structured, professional quotes.",
+    "approach": [
+      "Built an Expo/React Native frontend and FastAPI backend communicating over HTTP.",
+      "Used Groq Whisper for transcription and Llama 3.1 for strict JSON extraction.",
+      "Stored quotes in Supabase and generated PDFs with fpdf2.",
+      "Added platform-aware uploads, recent-quote history, offline queues, and automatic synchronization."
+    ],
+    "role": "End-to-end product design, AI orchestration, backend APIs, mobile integration, database layer, PDF generation, and resilience behavior.",
+    "tools": [
+      "React Native",
+      "Expo",
+      "FastAPI",
+      "Uvicorn",
+      "Groq Whisper",
+      "Llama 3.1",
+      "Supabase",
+      "fpdf2"
+    ],
+    "results": [
+      "Converted voice notes into validated quote objects and shareable PDFs.",
+      "Separated frontend on port 8081 from backend on port 8000.",
+      "Implemented offline recording queues and auto-sync when connectivity returns."
+    ],
+    "metrics": [
+      {
+        "value": "2",
+        "label": "integrated services"
+      },
+      {
+        "value": "~0.7s",
+        "label": "documented transcription"
+      },
+      {
+        "value": "Offline",
+        "label": "queue + sync"
+      }
+    ],
+    "takeaways": [
+      "LLM output must be validated through a strict schema.",
+      "Mobile networking and offline behavior are product requirements, not edge cases."
+    ],
+    "gallery": [],
+    "cover": "assets/images/projects/hexaquote-cover.svg",
+    "report": "public/reports/hexaquote.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/hexaquote.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ],
+    "featuredCover": "assets/images/projects/hexaquote-feature.svg"
+  },
+  {
+    "slug": "weighted-yolo",
+    "title": "Weighted YOLO",
+    "subtitle": "Unified Multi-Generation Detection Architecture",
+    "category": "AI Research",
+    "status": "Experimental research",
+    "year": "2026",
+    "featured": true,
+    "accent": "#62ff9b",
+    "symbol": "WY",
+    "summary": "A proposed detector that studies YOLO evolution and combines weighted multi-scale fusion, modern CSP blocks, training-only gradient modules, and an end-to-end NMS-free head.",
+    "problem": "YOLO generations introduce useful ideas independently, but a controlled study is needed to test which combinations improve the speed-accuracy trade-off and small-object detection.",
+    "approach": [
+      "Reviewed modules introduced across YOLOv4/v5/v8/v9/v10/YOLO11 and later designs.",
+      "Designed a CSP-C3k2 backbone with SPPF, attention, and optional P2/P6 scales.",
+      "Replaced equal feature merging with learnable weighted PAN-FPN fusion.",
+      "Planned a one-to-many training head and one-to-one NMS-free inference path with ablations."
+    ],
+    "role": "Architecture research, module comparison, implementation planning, weighted-fusion experiments, logging diagnosis, and ablation design.",
+    "tools": [
+      "PyTorch",
+      "Ultralytics",
+      "YOLO",
+      "C3k2",
+      "C2PSA",
+      "PAN-FPN",
+      "PGI"
+    ],
+    "results": [
+      "Produced a complete architecture and part-by-part technical explanation.",
+      "Implemented learnable weighted neck fusion in matched experiments.",
+      "Maintained research-safe claims: the unified model remains experimental until longer ablations establish superiority."
+    ],
+    "metrics": [
+      {
+        "value": "P2-P6",
+        "label": "feature scales"
+      },
+      {
+        "value": "Weighted",
+        "label": "PAN-FPN fusion"
+      },
+      {
+        "value": "NMS-free",
+        "label": "target inference"
+      }
+    ],
+    "takeaways": [
+      "A novel architecture claim requires matched baselines and repeated ablations.",
+      "Training-only modules should improve optimization without increasing inference cost."
+    ],
+    "gallery": [
+      "../../assets/images/projects/weighted-yolo-architecture.png"
+    ],
+    "cover": "assets/images/projects/weighted-yolo-cover.svg",
+    "report": "public/reports/weighted-yolo.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/weighted-yolo.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ],
+    "featuredCover": "assets/images/projects/weighted-yolo-feature.svg"
+  },
+  {
+    "slug": "brain-stimulation-response",
+    "title": "Explainable Brain Stimulation-Response AI",
+    "subtitle": "3D fMRI Transfer Learning + Multimodal Decision Support",
+    "category": "AI Research",
+    "status": "Ongoing research",
+    "year": "2026",
+    "featured": true,
+    "accent": "#ff5da9",
+    "symbol": "FMRI",
+    "summary": "A leakage-aware multimodal framework combining pretrained 3D fMRI representations, stimulation/electrode metadata, uncertainty, visual interpretation, and grounded report generation.",
+    "problem": "The epilepsy dataset contains only 159 CNN-compatible runs from 26 subjects, making random-initialization 3D CNN training unreliable and requiring strict subject-wise evaluation.",
+    "approach": [
+      "Pretrained a residual 3D autoencoder on 6,562 BrainPedia statistical maps.",
+      "Continued self-supervised pretraining on 17,797 HCP task-fMRI maps from 787 subjects.",
+      "Fine-tuned a 64-dimensional encoder on Low/Moderate/High pseudo-labels using LOSO.",
+      "Integrated fMRI evidence with stimulation/electrode metadata, uncertainty, explainability, VLM interpretation, and grounded LLM reporting."
+    ],
+    "role": "Research pipeline design, preprocessing, transfer learning, subject-wise validation, fusion, uncertainty, explainability, and reporting architecture.",
+    "tools": [
+      "PyTorch",
+      "3D CNN",
+      "fMRI",
+      "NIfTI",
+      "BrainPedia",
+      "HCP",
+      "LOSO",
+      "VLM",
+      "LLM"
+    ],
+    "results": [
+      "Best documented subject-wise result: approximately 41.82% balanced accuracy and 42.05% macro-F1.",
+      "Established a 6,562 -> 17,797 -> 159 transfer-learning story.",
+      "Built an end-to-end research decision-support framework rather than claiming clinical validation."
+    ],
+    "metrics": [
+      {
+        "value": "159",
+        "label": "epilepsy runs"
+      },
+      {
+        "value": "26",
+        "label": "LOSO subjects"
+      },
+      {
+        "value": "42.05%",
+        "label": "macro-F1"
+      }
+    ],
+    "takeaways": [
+      "Subject-wise evaluation is mandatory when multiple runs come from the same person.",
+      "Pseudo-label uncertainty can be more important than simply making the CNN larger."
+    ],
+    "gallery": [
+      "../../assets/images/projects/brain-framework.png"
+    ],
+    "cover": "assets/images/projects/brain-stimulation-response-cover.svg",
+    "report": "public/reports/brain-stimulation-response.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/brain-stimulation-response.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ],
+    "featuredCover": "assets/images/projects/brain-stimulation-response-feature.svg"
+  },
+  {
+    "slug": "fg-kvq",
+    "title": "FG-KVQ",
+    "subtitle": "Factorized Gated KV-Cache Quantization",
+    "category": "AI Research",
+    "status": "Research prototype",
+    "year": "2026",
+    "featured": true,
+    "accent": "#baff33",
+    "symbol": "KV",
+    "summary": "A preventive KV-cache quantization idea that separates Key magnitude into a compact gate and stores normalized Key content in low-bit form before cache insertion.",
+    "problem": "Key vectors can contain extreme outlier channels that cause large low-bit quantization error; most existing methods react after outliers appear.",
+    "approach": [
+      "Computed a compact scalar gate per token/head or RoPE group.",
+      "Normalized Key content before low-bit storage.",
+      "Restored the scale during attention while preserving RoPE geometry in full precision.",
+      "Designed comparisons against FP16, naive INT4, KIVI-style, and KVQuant-style baselines."
+    ],
+    "role": "Novelty formulation, mathematical design, Hugging Face attention patching, cache capture, tensor reconstruction, metrics planning, and ablation design.",
+    "tools": [
+      "PyTorch",
+      "Transformers",
+      "TinyLlama",
+      "KV Cache",
+      "INT4",
+      "RoPE",
+      "Quantization"
+    ],
+    "results": [
+      "Successfully patched and captured K/V across 22 transformer layers.",
+      "Recorded a 41-token sequence with reconstructed K/V tensors.",
+      "Measured 0.0034 MB gate storage within a 0.4852 MB side-cache prototype."
+    ],
+    "metrics": [
+      {
+        "value": "22",
+        "label": "patched layers"
+      },
+      {
+        "value": "0.0034 MB",
+        "label": "gate storage"
+      },
+      {
+        "value": "41",
+        "label": "captured tokens"
+      }
+    ],
+    "takeaways": [
+      "The decisive metric is attention-logit preservation, not Key MSE alone.",
+      "Current evidence proves the prototype mechanism, not superiority over mature baselines."
+    ],
+    "gallery": [],
+    "cover": "assets/images/projects/fg-kvq-cover.svg",
+    "report": "public/reports/fg-kvq.pdf",
+    "links": [
+      {
+        "label": "Project report",
+        "url": "../../public/reports/fg-kvq.pdf",
+        "kind": "report"
+      },
+      {
+        "label": "GitHub profile",
+        "url": "https://github.com/awai1s",
+        "kind": "external"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Weighted YOLO abstract feature artwork">
+<defs>
+ <radialGradient id="bg" cx="78%" cy="25%" r="88%"><stop offset="0" stop-color="#62ff9b" stop-opacity=".31"/><stop offset=".48" stop-color="#10152a"/><stop offset="1" stop-color="#03050a"/></radialGradient>
+ <linearGradient id="line" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#62ff9b"/><stop offset="1" stop-color="#8f62ff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#ffffff" stroke-opacity=".04"/></pattern>
+</defs>
+<rect width="1200" height="720" fill="url(#bg)"/><rect width="1200" height="720" fill="url(#grid)"/>
+<g opacity=".92" filter="url(#glow)"><path d="M30 600 C240 310 430 685 650 345 S965 105 1190 280" fill="none" stroke="url(#line)" stroke-width="5"/><circle cx="650" cy="345" r="10" fill="#62ff9b"/><circle cx="960" cy="140" r="8" fill="#8f62ff"/></g>
+<g fill="none" stroke="#62ff9b" stroke-opacity=".29"><circle cx="930" cy="310" r="205"/><circle cx="930" cy="310" r="154"/><circle cx="930" cy="310" r="103"/></g>
+<circle cx="930" cy="310" r="77" fill="#08101a" fill-opacity=".7" stroke="#62ff9b" stroke-opacity=".38"/>
+<text x="930" y="333" fill="#f7fbff" text-anchor="middle" font-family="Arial, sans-serif" font-size="88" font-weight="800" opacity=".88">WY</text>
+<g opacity=".22" fill="#62ff9b"><circle cx="120" cy="120" r="5"/><circle cx="185" cy="145" r="3"/><circle cx="245" cy="105" r="4"/></g>
+</svg>

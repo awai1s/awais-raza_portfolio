@@ -1,0 +1,21 @@
+1. Run locally:
+   python -m http.server 8000
+
+2. Open:
+   http://localhost:8000
+
+3. Read README.md for project-report placement, customization and Vercel setup.
+
+4. Main files:
+   index.html                       Homepage
+   assets/css/styles.css           Complete neon UI/UX styling
+   assets/js/main.js               Animations, filters, live background and contact behavior
+   assets/data/projects.json       All project content
+   projects/<slug>/index.html      Individual case-study pages
+   public/reports/<slug>.pdf       Downloadable project reports
+   public/cv/Awais-Raza-CV.pdf     Resume
+
+5. Before final deployment:
+   - Replace GitHub-profile fallback links with exact repository URLs.
+   - Replace assets/images/avatar.svg with a professional photo if desired.
+   - Configure Resend variables only if you want direct contact-form delivery.

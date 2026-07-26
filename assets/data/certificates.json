@@ -1,0 +1,93 @@
+[
+  {
+    "title": "NumPy, SciPy, Matplotlib & Pandas A-Z",
+    "issuer": "Udemy",
+    "date": "July 2024",
+    "image": "assets/images/certificates/udemy-numpy-scipy-matplotlib-pandas.png",
+    "pdf": "public/certificates/udemy-numpy-scipy-matplotlib-pandas.pdf"
+  },
+  {
+    "title": "Machine Learning & Self-Driving Cars",
+    "issuer": "Udemy",
+    "date": "July 2024",
+    "image": "assets/images/certificates/udemy-machine-learning-self-driving.png",
+    "pdf": "public/certificates/udemy-machine-learning-self-driving.pdf"
+  },
+  {
+    "title": "Coding Arena Top Performer",
+    "issuer": "IT Club",
+    "date": "Recognition",
+    "image": "assets/images/certificates/it-club-top-performer.png",
+    "pdf": "public/certificates/it-club-top-performer.pdf"
+  },
+  {
+    "title": "Certified Python Elementary Programmer (CPEP-11)",
+    "issuer": "Python Career Trainers / AICP",
+    "date": "November 2023",
+    "image": "assets/images/certificates/cpep-11.png",
+    "pdf": "public/certificates/cpep-11.pdf"
+  },
+  {
+    "title": "Applications of AI",
+    "issuer": "Great Learning Academy",
+    "date": "July 2024",
+    "image": "assets/images/certificates/great-learning-applications-of-ai.png",
+    "pdf": "public/certificates/great-learning-applications-of-ai.pdf"
+  },
+  {
+    "title": "Introduction to Artificial Intelligence",
+    "issuer": "Great Learning Academy",
+    "date": "July 2024",
+    "image": "assets/images/certificates/great-learning-introduction-to-ai.png",
+    "pdf": "public/certificates/great-learning-introduction-to-ai.pdf"
+  },
+  {
+    "title": "SQL for Data Science",
+    "issuer": "Great Learning Academy",
+    "date": "July 2024",
+    "image": "assets/images/certificates/great-learning-sql-for-data-science.png",
+    "pdf": "public/certificates/great-learning-sql-for-data-science.pdf"
+  },
+  {
+    "title": "Career Essentials in Data Analysis",
+    "issuer": "Microsoft & LinkedIn",
+    "date": "June 2024",
+    "image": "assets/images/certificates/microsoft-linkedin-career-essentials-data-analysis.png",
+    "pdf": "public/certificates/microsoft-linkedin-career-essentials-data-analysis.pdf"
+  },
+  {
+    "title": "Career Essentials in GitHub Professional Certificate",
+    "issuer": "LinkedIn Learning & GitHub",
+    "date": "July 2024",
+    "image": "assets/images/certificates/linkedin-github-professional-certificate.png",
+    "pdf": "public/certificates/linkedin-github-professional-certificate.pdf"
+  },
+  {
+    "title": "Develop with Python for AI and Machine Learning",
+    "issuer": "LinkedIn Learning",
+    "date": "July 2024",
+    "image": "assets/images/certificates/linkedin-develop-python-ai-machine-learning.png",
+    "pdf": "public/certificates/linkedin-develop-python-ai-machine-learning.pdf"
+  },
+  {
+    "title": "Python Data Analysis",
+    "issuer": "LinkedIn Learning",
+    "date": "June 2024",
+    "image": "assets/images/certificates/linkedin-python-data-analysis.png",
+    "pdf": "public/certificates/linkedin-python-data-analysis.pdf"
+  },
+  {
+    "title": "Career Essentials in Generative AI",
+    "issuer": "Microsoft & LinkedIn",
+    "date": "August 2024",
+    "image": "assets/images/certificates/microsoft-linkedin-career-essentials-generative-ai.png",
+    "pdf": "public/certificates/microsoft-linkedin-career-essentials-generative-ai.pdf"
+  },
+  {
+    "title": "Anaconda Python for Data Science Professional Certificate",
+    "issuer": "LinkedIn Learning & Anaconda",
+    "date": "July 2024",
+    "image": "assets/images/certificates/anaconda-python-data-science.png",
+    "pdf": "public/certificates/anaconda-python-data-science.pdf"
+  }
+]

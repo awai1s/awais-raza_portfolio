@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="FG-KVQ cover">
+<defs>
+ <radialGradient id="bg" cx="70%" cy="25%" r="85%"><stop offset="0" stop-color="#baff33" stop-opacity=".27"/><stop offset=".48" stop-color="#10152a"/><stop offset="1" stop-color="#03050a"/></radialGradient>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#baff33"/><stop offset="1" stop-color="#8f62ff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#ffffff" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1200" height="720" fill="url(#bg)"/><rect width="1200" height="720" fill="url(#grid)"/>
+<g opacity=".9" filter="url(#glow)"><path d="M80 540 C250 250 430 650 610 330 S940 90 1130 290" fill="none" stroke="url(#line)" stroke-width="4"/><circle cx="610" cy="330" r="9" fill="#baff33"/><circle cx="920" cy="140" r="7" fill="#8f62ff"/></g>
+<g fill="none" stroke="#baff33" stroke-opacity=".35"><circle cx="910" cy="290" r="190"/><circle cx="910" cy="290" r="145"/><circle cx="910" cy="290" r="96"/></g>
+<rect x="70" y="72" width="160" height="48" rx="24" fill="#baff33" fill-opacity=".12" stroke="#baff33" stroke-opacity=".6"/>
+<text x="150" y="104" fill="#baff33" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="4">CASE STUDY</text>
+<text x="72" y="245" fill="#f7fbff" font-family="Arial, sans-serif" font-size="72" font-weight="800">FG-KVQ</text>
+<foreignObject x="74" y="278" width="700" height="130"><div xmlns="http://www.w3.org/1999/xhtml" style="font: 29px Arial,sans-serif;color:#aeb8d1;line-height:1.35">Factorized Gated KV-Cache Quantization</div></foreignObject>
+<text x="910" y="324" fill="#f7fbff" text-anchor="middle" font-family="Arial, sans-serif" font-size="88" font-weight="800">KV</text>
+<text x="74" y="640" fill="#94a3bd" font-family="Arial, sans-serif" font-size="20" letter-spacing="3">SYED MUHAMMAD AWAIS RAZA  /  AI RESEARCH</text>
+</svg>
