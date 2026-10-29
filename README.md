@@ -1,4 +1,4 @@
-# Syed Muhammad Awais Raza - Neon AI Portfolio
+# Syed Muhammad Awais Raza
 
 A premium, responsive, multi-page portfolio built with semantic HTML, modern CSS and vanilla JavaScript. It has no frontend framework dependency, so it loads quickly and can be deployed directly to Vercel.
 
